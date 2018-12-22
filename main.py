@@ -103,7 +103,7 @@ def error(bot, update, error):
     logger.warning('Update "%s" caused error "%s"', update, error)
 
 def main():
-    updater = Updater(token='722112850:AAFNR8yuewM6ECQnP5FMMdyIst5NvgyVqxY')
+    updater = Updater(token='TOKEN')
 
     dispatcher = updater.dispatcher
 
